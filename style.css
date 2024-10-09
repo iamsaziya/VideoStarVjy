@@ -346,7 +346,7 @@ body{
 	-webkit-overflow-scrolling: touch;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
 
@@ -678,7 +678,7 @@ a,
 .testimonial-slider .swiper-pagination-bullet,
 .mt-img-scale img,
 .portfolio-fs-item .fs-item-bkg{
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 	-webkit-transition: all 1s cubic-bezier(0.30, 1, 0.35, 1) 0s;
 	-moz-transition: all 1s cubic-bezier(0.30, 1, 0.35, 1) 0s;
 	-o-transition: all 1s cubic-bezier(0.30, 1, 0.35, 1) 0s;
@@ -828,7 +828,7 @@ height: 20px;
 	-webkit-transform: translateX(0px);
 	-ms-transform: translateX(0px);
 	transform: translateX(0px);
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 	-webkit-transition: all 0.5s cubic-bezier(0.30, 1, 0.35, 1) 0s;
 	-moz-transition: all 0.5s cubic-bezier(0.30, 1, 0.35, 1) 0s;
 	-o-transition: all 0.5s cubic-bezier(0.30, 1, 0.35, 1) 0s;
