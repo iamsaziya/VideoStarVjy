@@ -5439,3 +5439,13 @@ body.hidden-scroll {
 	}
 
 }
+
+@media (max-width: 568px){
+	iframe{
+		height: 160px;
+		border-radius: 10px;
+		margin-left: 10px;
+		margin-top: 40px;
+		width: 160px;
+	}
+}
